@@ -57,7 +57,7 @@ def counterfactuals():
         ]
     )
 
-    return json.dumps(genetic.to_json())
+    return json.dumps(result.to_json())
     
 
 if __name__ == "__main__":
